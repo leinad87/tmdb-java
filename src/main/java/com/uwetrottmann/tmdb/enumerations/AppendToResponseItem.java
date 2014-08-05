@@ -23,8 +23,9 @@ public enum AppendToResponseItem {
     TRAILERS("trailers"),
     RELEASES("releases"),
     CREDITS("credits"),
-    SIMILAR("similar_movies");
-
+    SIMILAR("similar_movies"),
+    IMAGES("images"),
+    COMBINED_CREDITS("combined_credits");
     private final String value;
 
     private AppendToResponseItem(String value) {
